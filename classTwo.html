@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists: types of lists</title>
+
+    <style>
+        span{
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>different kinds of lists</h1>
+
+    <section>
+        <h2>countries in west africa</h2>
+        <ul>
+            <li>nigeria</li>
+            <li>ghana</li>
+            <li>liberia</li>
+            <li>senegal</li>
+            <li>togo</li>
+            <li>benin republic</li>
+            <li>sierre loenne</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>former heads of state</h2>
+
+        <h3>before 4th republic</h3>
+        <ol type="I">
+            <li>nnamdi azikiwe</li>
+            <li>aguiyi ironsi</li>
+            <li>yakubu gowon </li>
+            <li>murtala mohammed</li>
+            <li>olusegun obasajo</li>
+            <li>shehu shagari</li>
+            <li>mohammed buhari</li>
+            <li>ibrahim babangida</li>
+            <li>ernest shonekan</li>
+            <li>sani abacha</li>
+            <li>abdusalami abubarkar</li>
+        </ol>
+
+        <h3>from 4th republic</h3>
+
+        <ol type="I" start="12" reversed>
+            <li><span>ol</span>usegun obasanjo</li>
+            <li><span>mu</span>sa yar'adua</li>
+            <li><span>jo</span>nathan goodluck</li>
+            <li><span>mo</span>hammed buhari</li>
+            <li><span>bo</span>la tinubu</li>
+        </ol>
+    </section>
+    <section>
+        <h2>some cities in europe</h2>
+
+        <!-- ul>(li>ol>li*2)*3 -->
+        <ul>
+            <li>italy
+                <ol>
+                    <li>milan: <time datetime="2000-01-10">10 January 2000</time></li>
+                    <li>rome:<time datetime="10-05"> 5 October</time></li>
+                </ol>
+            </li>
+            <li>france
+                <ol>
+                    <li>paris: <time datetime="2024-W11">11th week of the year</time></li>
+                    <li>lyon</li>
+                </ol>
+            </li>
+            <li>spain
+                <ol>
+                    <li>madrid</li>
+                    <li>barcelona</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <!-- sect>dl>(dt+dd)*3  --> 
+    <section>
+        <dl>
+            <dt>frontend web development </dt>
+            <dd>Frontend development is the process of building components that interact with users. Examples are the <strong>user interface, buttons, user-entered data, websites.</strong></dd>
+            
+            <dt>backend web development </dt>
+            <dd>Backend development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, <abbr title="application programming interface">APIs</abbr><strong>, architecture, and servers</strong>. Chemical formula for Benzene: C<sub>6</sub>H<sub>6</sub></dd>
+            
+            <dt>ethical hacking </dt>
+            <dd>Ethical hacking involves an <em>authorized attempt to gain <strong>unauthorized</strong> access</em> to a computer system, application, or data. Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. Classes start on 2<sup>nd</sup> February 2024.</dd>
+        </dl>
+    </section> 
+</body>
+</html>
